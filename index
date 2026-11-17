@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>galerie | Hackclub LBP | Hackclub</title>
+    <meta name="description" content="Les photos de notre Hack Club.">
+    <link rel="icon" href="https://assets.hackclub.com/icon-rounded.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+#menu en haut et sources des pages
+    <header class="upbar">
+        <a class="flag" href="https://hackclub.com/"><img src="https://assets.hackclub.com/flag-orpheus-top.svg" alt="Hack Club"></a>"
+        <nav>
+            <a class="nav-link" href="#a-propos">A propos</a>
+            <a class="nav-link" href="#reunions">Reunions</a>
+            <a class="nav-link" href="#projets">Projets</a>
+            <a class="nav-link keep" href="gallerie.html">Galerie</a>
+            <a class="button small-button" href="#rejoindre">Rejoindre</a>
+        </nav>
+    </header>
+
+    <main>
+#gallerie de phots / demos
+        <section class="hero">
+            <div class="hero-text"></div>
+                <h1>Galerie</h1>
+                <p>On se retrouve le Jeudi ou en ligne, chacun construit son projet et on s'entraide. Pas besoin de savoir coder ou modeler pour participer.</p>
+                <a class="button" href="rejoindre"
+            </section>
+
+        <section
+    </main>
+</body>
+</html>
