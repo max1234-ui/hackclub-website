@@ -23,14 +23,79 @@
 
     <main>
 #gallerie de phots / demos
-        <section class="hero">
-            <div class="hero-text"></div>
-                <h1>Galerie</h1>
-                <p>On se retrouve le Jeudi ou en ligne, chacun construit son projet et on s'entraide. Pas besoin de savoir coder ou modeler pour participer.</p>
-                <a class="button" href="rejoindre"
-            </section>
+    <section class="hero">
+        <div class="hero-text"></div>
+            <h1>Galerie</h1>
+            <p>On se retrouve le Jeudi ou en ligne, chacun construit son projet et on s'entraide. Pas besoin de savoir coder ou modeler pour participer.</p>
+            <a class="button" href="rejoindre">Rejoindre le club &rarr;</a>
+        </div>
+        <div class="hero-photos">
+            <img class="photo photo-a" src="https://hackclub.com/assets/hero_photo2.webp" alt="premiere reunion">
+            <img class="photo photo-b" src="https://hackclub.com/assets/hero_photo3.webp" alt="premier atelier">
+        </div>
+    </section>
+    
+    <section id="a-propos" class="panel">
+        <h2>A propos</h2>
+        <p>Nous sommes un club de programmation et modellage CAO. Le club fait partie du réseau Hack Club, une communauté de lycéens du monde entier qui apprennent en construisant des choses.</p>
 
-        <section
-    </main>
+        <ul class="features">
+            <li>
+                <img src="https://icons.hackclub.com/api/icons/red/event-code" alt="" width="48" height="48">
+                <div>
+                    <h3>creer ensemble</h3>
+                    <p>Un jeu, un site, un robot : tu choisis ce que tu veux faire et on t'assiste pour l'accomplir.</p>
+                </div>
+            </li>
+            <li>
+                <img src="https://icons.hackclub.com/api/icons/red/bolt" alt="" width="48" height="48">
+                <div>
+                    <h3>Finir ses projets</h3>
+                    <p>On avance un peu chaque semaine, et on montre le résultat aux autres membres.</p>
+                </div>
+            </li>
+            <li>
+                <img src="https://icons.hackclub.com/api/icons/red/clubs" alt="" width="48" height="48">
+                <div>
+                    <h3>Faire partie d'une communaute</h3>
+                    <p>Des hackathons, des defis et des milliers d'autres lyceens a rencontrer dans hackclub.</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section id="reunions" class="pannel yellow">
+        <h2>Reunions</h2>
+        <dl class="info">
+            <dt>Quand</dt>
+            <dd>Tous les jeudis de 12h30 a 14h15 en Semaine A et 12h30 a 13h20 en Semaine B </dd>
+            <dt>Ou</dt>
+            <dd>Fablab ou sur slack</dd>
+            <dt>A apporter</dt>
+            <dd>Un ordinateur et de la volontee</dd>
+        </dl>
+    </section>
+
+    <section id="projets" class="wrap">
+        <h2>Nos projets</h2>
+        <div class="grid">
+            <article class="card">
+                <h3>porte cles</h3>
+                 <p>Une courte description de ce qu'il fait et de qui l'a créé.</p>
+                <a class="text-link" href="#">Voir le projet &rarr;</a>
+            </article>
+            <article class="card">
+                <h3>Projet deux</h3>
+                <p>Une courte description de ce qu'il fait et de qui l'a créé.</p>
+                <a class="text-link" href="#">Voir le projet &rarr;</a>
+            </article>
+            <article class="card">
+                <h3>Projet trois</h3>
+                <p>Une courte description de ce qu'il fait et de qui l'a créé.</p>
+                <a class="text-link" href="#">Voir le projet &rarr;</a>
+        </article>
+    </div>
+</section>
+</main>
 </body>
 </html>
