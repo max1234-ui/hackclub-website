@@ -85,7 +85,7 @@
                 <a class="text-link" href="#">Voir le projet &rarr;</a>
             </article>
             <article class="card">
-                <h3>Projet deux</h3>
+                <h3>decoupe pate</h3>
                 <p>Une courte description de ce qu'il fait et de qui l'a créé.</p>
                 <a class="text-link" href="#">Voir le projet &rarr;</a>
             </article>
@@ -93,9 +93,66 @@
                 <h3>Projet trois</h3>
                 <p>Une courte description de ce qu'il fait et de qui l'a créé.</p>
                 <a class="text-link" href="#">Voir le projet &rarr;</a>
-        </article>
-    </div>
-</section>
+            </article>
+        </div>
+    </section>
+
+    <section id="rejoindre" class="join">
+        <div class="join-inner">
+            <h2>Viens essayez.</h2>
+            <p>Passe à une réunion, même juste pour voir. Tu peux aussi nous écrire avant.</p>
+            <a class="button light" href="https://clubs.hackclub.com/auth/member?join=GHA698">S'inscrire &rarr;</a>
+            <p class="contact">Une question ? <a href="mailto:fetissovb@gmail.com">fetissovb@gmail.com</a></p>
+        </div>
+    </section>
+
 </main>
+
+<footer class="footer">
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <a href="https://hackclub.com/"><img src="https://hackclub.com/assets/hackClubFlag.svg" alt="Hack Club" width="120"></a>
+            <p class="tagline">For teens, by teens.</p>
+            <p><a heref="tel:18556254225">1-855-625-HACK</a> (call toll-free)</p>
+            <p class="social">
+          <a href="https://github.com/hackclub">GitHub</a>
+          <a href="https://www.youtube.com/c/HackClubHQ">YouTube</a>
+          <a href="https://www.instagram.com/starthackclub">Instagram</a>
+          </p>
+        </div>
+        <div class="footer-col">
+            <h4>Hack Club</h4>
+        <ul>
+          <li><a href="https://hackclub.com/philosophy">Philosophy</a></li>
+          <li><a href="https://hackclub.com/team">Our Team &amp; Board</a></li>
+          <li><a href="https://hackclub.com/jobs">Jobs</a></li>
+          <li><a href="https://hackclub.com/brand">Branding</a></li>
+          <li><a href="https://hackclub.com/press">Press Inquiries</a></li>
+          <li><a href="https://hackclub.com/philanthropy">Donate</a></li>
+          <li><a href="https://hackclub.com/imprint">Imprint</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="https://hackclub.com/programs">Programs</a></li>
+          <li><a href="https://events.hackclub.com/">Community Events</a></li>
+          <li><a href="https://hackathons.hackclub.com/">Hackathons</a></li>
+          <li><a href="https://toolbox.hackclub.com/">Toolbox</a></li>
+          <li><a href="https://hackclub.com/clubs">Clubs</a></li>
+          <li><a href="https://hackclub.com/fiscal-sponsorship">HCB Fiscal Sponsorship</a></li>
+          <li><a href="https://hackclub.com/conduct">Code of Conduct</a></li>
+          <li><a href="https://hackclub.com/safeguarding">Safeguarding Policy</a></li>
+          <li><a href="https://hackclub.com/privacy-and-terms">Privacy &amp; Terms</a></li>
+          <li><a href="https://hackclub.enterprise.slack.com/">Slack</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="legal">&copy; 2026 hackclub Lycee blaise pascal, un club du réseau Hack Club. Hack Club est enregistré
+     sous <a href="https://the.hackfoundation.org/">The Hack Foundation</a>, une association à but non lucratif
+      501(c)(3) (EIN : 81-2908499).</p>
+      </footer>
+
+      
 </body>
 </html>

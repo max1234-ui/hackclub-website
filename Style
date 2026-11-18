@@ -1,0 +1,264 @@
+/* Palette officielle Hack Club (hackclub.com/brand) */
+:root {
+  --red: #ec3750;
+  --orange: #ff8c37;
+  --yellow: #f1c40f;
+  --blue: #338eda;
+  --ink: #1f2d3d;
+  --dark: #1f1f27;
+  --muted: #5b6b7c;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin:0;
+    color: var(--ink);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e9f2fc;
+    background-image: linear-gradient(rgba(51, 142, 218, 0.15) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(51, 142, 218, 0.15) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+h1, h2, h3 {
+    line-height: 1.1;
+    margin: 0;
+}
+
+h2 {
+    font-size: clamp(1.8rem, 4vw, 2.4rem);
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+
+a {
+    color: var(--red);
+}
+
+section[id] {
+    scroll-margin-top: 1rem;
+}
+
+/* Barre du haut */
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    min-height: 72px;
+    margin: 0 auto;
+    padding: 0 1.5rem 0 1rem;
+}
+
+.flag img {
+    display: block;
+    width: 200px;
+}
+
+.topbar nav {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.nav-link {
+    color: var(--ink);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: var(--red);
+}
+/* bouttons*/
+.button {
+  display: inline-block;
+  padding: 0.85rem 1.7rem;
+  border-radius: 999px;
+  background: var(--red);
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.button:hover {
+    background: #d12a42;
+    transform: translateY(-2px);
+}
+
+.small-button {
+    padding: 0.5rem 1.2rem;
+}
+
+.button.light {
+    background: #fff;
+    color: var(--red);
+}
+
+.button.light:hover {
+    background: #fff1f3;
+}
+
+/* haut de page */
+.hero {
+    display:grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 5rem;
+}
+
+.hero h1 {
+    margin-bottom: 1rem;
+    font-size: clamp(2.6rem, 7vw, 4.4rem);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+
+.hero-text p {
+    max-width: 34ch;
+    margin: 0 0 2 rem;
+    font-size: 1.25rem;
+}
+
+.hero-photos {
+    position: relative;
+    min-height: 380px;
+}
+
+.photo {
+    position: absolute;
+    display: block;
+    width: 72%;
+    height: auto;
+    border: 6px solid #fff;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.photo-a {
+  top: 0;
+  left: 0;
+  transform: rotate(-3deg);
+}
+
+.photo-b {
+  right: 0;
+  bottom: 0;
+  transform: rotate(3deg);
+}
+
+.panel,
+.wrap {
+    max-width: 1000px;
+    margin: 0 auto 2rem;
+    padding: 2.5rem 2rem;
+}
+
+.panel {
+    border: 2px solid var(--ink);
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 6px 6px 0 var(--ink);
+}
+
+.panel.yellow {
+    background: #fff6c9;
+}
+
+.wrap {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+/*liste de ce quon a fait */
+
+.features  {
+    margin: 1.5rem 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.features li {
+    display: flex;
+    gap: 1.2rem;
+    align-items: flex-start;
+    padding: 1.1rem 0;
+    border-top: 1px solid #d9e0e8;
+}
+
+.features img {
+    flex: none;
+}
+
+.features p {
+    margin: 0;
+}
+
+/*reunions*/
+.info {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 0.6rem 2rem;
+    margin: 0;
+    font-size: 1.15rem;
+}
+
+.info dt {
+    font-weight: 800;
+    color: var(--red);
+}
+
+.info dd {
+    margin: 0;
+}
+
+/*projets*/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    padding: 1.5rem;
+    border: 2px solid var(--ink);
+    border-radius: 16px;
+    background: #fff;
+}
+
+.card p {
+    margin: 0 0 1rem;
+}
+
+.text-link:hover {
+    text-decoration: underline;
+}
+
+.join {
+    margin-top: 3rem;
+    padding: 4.5rem 1.5rem;
+    background: var(--red);
+    color: #fff;
+}
+
+.join-inner {
+    max-width: 700px;
+    margin: 0 auto;
+}
