@@ -9,8 +9,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-#menu en haut et sources des pages
-    <header class="upbar">
         <a class="flag" href="https://hackclub.com/"><img src="https://assets.hackclub.com/flag-orpheus-top.svg" alt="Hack Club"></a>"
         <nav>
             <a class="nav-link" href="#a-propos">A propos</a>
